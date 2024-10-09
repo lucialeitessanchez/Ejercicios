@@ -27,3 +27,13 @@ nav ul li a{
     text-decoration: none; /* le saca el estilo del hipervinculo*/
     color: whitesmoke;
 }
+
+footer{
+    text-align: center;
+    padding: 10px 0 ;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
