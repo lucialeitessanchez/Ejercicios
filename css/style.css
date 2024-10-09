@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;/*que cada elemento este separado en 15px*/
+
+}
+
+nav ul li a{
+    text-decoration: none; /* le saca el estilo del hipervinculo*/
+    color: whitesmoke;
+}

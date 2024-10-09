@@ -16,9 +16,10 @@
     <form action="#" method="POST">
         <fieldset>
             <legend>Formulario de contacto</legend>
-        <label for="Nombre">Nombre:</label>
+            <!-- el for del label debe ser la misma que el id al que esta relacionado -->
+        <label for="nombreI">Nombre:</label>
         <input type="text" id="nombreI" name="nombreI" placeholder="Ingres solo nombre" required>
-        <label for="Apellido">Apellido:</label>
+        <label for="apellidoI">Apellido:</label>
         <input type="text" id="apellidoI" name="apellidoI" placeholder="Ingrese apellido completo" required>
         <br>
         <br>
@@ -28,7 +29,7 @@
         <label for="mensaje">Mensaje a enviar</label>
         <textarea name="mensaje" id="mensaje" rows="10" cols="40" required>Escriba su mensaje a enviar...</textarea>
         <br><br>
-        <input type="submit" name="btnEnviar" id="enviarbtn" value="Enviar consulta">
+        <button type="submit">Enviar consulta</button>
     </fieldset>
     </form>
 </body>
